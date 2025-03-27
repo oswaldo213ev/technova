@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> technova </title>
+<style>
+  body {
+background-image: url("img/abstract-white-background-free-vector (1).jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+    font-family:Arial, sans-serif;
+    color:#ffffff;
+    margin: 0;
+   
+}
+ 
+header { 
+    background-color:black;
+    color:#ecf0f1;
+    padding: 15px;
+    text-align: center;
+}
+ 
+header h1{
+
+    margin: 0;
+    font-size: 2.5em;
+
+}
+   nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+   
+} 
+   
+nav ul li {
+    display: inline-block;
+     margin: 0 15px;
+}
+  
+nav ul li a {
+   color:#ecf0f1;
+   text-decoration: none;
+   font-size: 1.2em;
+
+}
+
+nav ul li a:hover {
+    color:#1abc9c;
+
+}
+
+main {
+ padding: 20px;
+ text-align: center;
+
+
+}
+main h2 {
+   color:#34495e
+   font-size: 2em;
+   margin-top: 0;
+}
+
+main p {
+ font-size: 1.2em;
+}
+ 
+footer {
+  background-color:black;
+  color:#ecf0f1;
+text-align: center;
+padding: 4px 0;
+position: fixed;
+width: 100%;
+bottom : 0;
+}
+main h2 {
+ color:#000000
+}
+main p {
+  font-family:Arial;
+  text-align: justify;
+  color:black;
+  
+}
+
+footer p {
+   text-align: center;
+  color: white;
+}
+   main img {
+   width: 250px;
+}
+form{
+max-width: 500px;
+margin: 0 auto;
+font-family: arial, sans-serif;
+text-align: center;
+border: 5px solid;
+border-color: black;
+}
+
+div  {
+ text-align: center;
+
+
+}
+label {
+
+font-weight: bold;
+color: black;
+}
+input, select, textarea{
+ padding: 12px;
+margin-top: 10px;
+border: 8px solid #ccc;
+border-radius: 10px;
+width:92%;
+}
+
+
+input[type="submit"] {
+
+background-color:black;
+color:white;
+border: none;
+padding: 20px 20px;
+cursor: pointer; 
+text-align: left;
+}
+input[type="submit"]: hover {
+background-color:black;
+text-align: right;
+}
+h2{
+ color: black;
+}
+
+
+
+
+
+
+ </style>
+</head>
+
+<body>
+<header>
+ <h1> TECHNOVA </h1>
+<nav>
+ <ul>
+     <li><a href="TECHNOVA.HTML" title="TECHNOVA ">TECHNOVA </a></li>
+    <li><a href="INICIO.HTML" title="PAGINA PRINCIPAL">INICIO</a></li>
+    <li><a href="PRODUCTOS DE HADWARE.HTML" title="DE HARDWARE">PRODUCTOS</a></li>
+    <li><a href="DIAGRAMAS.HTML">FORMULARIOS </a></li>
+
+
+
+</ul>
+
+</nav>
+</header>
+<main>
+<h2>FORMULARIOS  </h2>
+</main>
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx">
+ <h2> procesadores </h2>
+           
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar">Inter Core i9-13900K</option>
+   <option value="comprar">AMD Ryzen 57600X</option>
+     <option value="comprar">Inter Core i5-13600K</option>
+     <option value="comprar">Intel Core i3-13100F</option>
+  </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<input type="hidden" name="_next" vaule="">
+<br>
+<br>
+</form><br>
+
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2> Opinion de los procesadores </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿te interesarons los procesadores?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> no   </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">si </label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> 2/3 </label><br><br>
+            
+           <label for="problema">CRITICAS SOBRE LOS PRODUCTOS </label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx">
+ <h2> tarjetas grafricas </h2>         
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar">NVIDIA GeForce RTX 4090</option>
+   <option value="comprar">AMD Radeon RX 7900</option>
+     <option value="comprar">AMD RX 6600</option>
+     <option value="comprar">NVIDIA GeForce GTX 1050</option>
+  </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2> Opinion sobre las tarjetas grafricas </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Que caracteristicas son mas importantes para ti al elegir una tarjeta de video?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> rendimiento para gaming (FPS altos, resolucion 4k) </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">enfriamiento eficiente (ventiladores, disipacio de calor)</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> compatibilidad y conectores (HDMI, Displayport,tamaño de la placa) </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx">
+ <h2> Memoria RAM </h2>
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar">CORSAIR VENGEANCE</option>
+   <option value="comprar">GSKILL TRIDENTZ RGB</option>
+     <option value="comprar">HyperX FURY</option>
+     <option value="comprar">Crucial Ballistix</option>
+  </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+
+
+
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2> Opinion sobre las Memorias RAM </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Que priorizas al elegir una memoria RAM para tu computadora?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> capacidad (8GB,16GB,32GB para multitarea o gaming) </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">velocidad (MHz altos para mayor rendimientoen juegos/edicion)</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> compatibilidad(DDR4/DDR5, tipos de placa madre,perfil bajo) </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+
+
+
+
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx">
+ <h2> Discos duros</h2>           
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar">Seagate Barracuda 7200 </option>
+   <option value="comprar">Shop western digital 5200</option>
+     <option value="comprar">Crucial MX500</option>
+     <option value="comprar">Toshiba X300 Performace Hard drive</option>
+  </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+
+
+
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2> Opinion sobre Disco duros  </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Cual es lo mas importante para ti al elegir un Disco duro?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> capacidad de almacenamiento(1TB,2TB,CTE. para guardar muchos archivos ) </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">velocidad (SSD NVMe para arranque rapido y mejor rendimiento)</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> Durabilidad y tipo (HDD para economia,SSD para resistencia y velocidad) </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+
+
+
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx" >
+ <h2> Placas base (madre) </h2>
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar">Asus ROG STRIX Z790-E </option>
+   <option value="comprar">MSI ATX MAG X670E TOMAHAWK WIFI</option>
+      </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+
+
+
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2> Opinion sobre placas Base  </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Que factor consideras mas importante al elegir una placa base?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> compatibilidad con el procesador (socket AMD/INTER y generacion) </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">Conectividad  (puertos USB,M.2,WIFI,RGB)</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> Expansion futura (ranuras PCle, soporte para RAM Y GPU potentes) </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx">
+ <h2> Fuentes de poder </h2>
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar">Cosair RM850x </option>
+   <option value="comprar">EVGA </option>
+      </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+
+
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2>opiniones de Fuentes de Poder  </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Que es lo mas importante para ti al elegir una fuente de poder?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> Potencia  (Wattage adecuado para tu tarjeta grafrica y componentes ) </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">Certificacion   (80 Plus Bronze, Gold, ect. para eficacia energetica)</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> Modularidad  (Cableado completo, semi o full-modular para mejor manejo) </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx">
+ <h2> Gabinetes </h2>
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar">NZXT GABINETE H5 Flow mini-ITX </option>
+   <option value="comprar">NZXT H510i </option>
+      </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+
+
+
+
+
+
+
+
+
+
+
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2> opinion sobre los Gabinetes   </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Que aspecto valoras mas al elegir un gabinete para tu PC?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> Diseño y espacio(Tamaño ATX/Mini ITX , flujo de aire , gestion de cables) </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">Ventilacion y refrigeracion    (Soportes para ventiladores o radiadores liquidos)</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> Estetica y personalizacion   (vidrio templado, RGB,bahias para unidades) </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+
+
+
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx">
+ <h2> Monitores </h2>
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar">Monitor Gamer LG 27 Ultrager </option>
+   <option value="comprar">Monitor Game Odyssey G7 </option>
+      </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+
+
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2> opinion sobre los Monitores  </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Que caracteristica priorizas al elegir un monitor para tu setup?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> Tasa de refresco(144Hz ,240Hz para gaming fluido) </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">Resolucion     (Full  HD,4K para nitidez en trabajo/entretenimiento)</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> Tecnologia de panel   (IPS para colores vivos, VA para contraerse, TN para respuesta rapida ) </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+
+
+
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx" >
+ <h2> Refrigeracion </h2>
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar">Noctua NH-D15 G2 </option>
+   <option value="comprar">Cosair ICUE H100I ELITE </option>
+      </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2>opinion sobre refrigeracion   </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Que factor es mas importante para ti en un sistema de refrigeracion?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> Rendimiento termico  (enfriamiento eficiente para overclocking o alto rendimiento ) </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">Nivel de ruido    (ventiladores sileciosos para ambientes tranquilos  )</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> Tipo de sistema  (refrigeracion liquida AIO o disipadores de aire premium) </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx" >
+ <h2> Teclados y mouse </h2>
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar">Teclado mecánico REDRAGON K677 Pro
+ </option>
+   <option value="comprar">Mouse razer deathadder </option>
+      </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+
+
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2>opinion de los teclados y ratones  </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Que es lo que mas valoras al elegir un teclado y mouse ?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> tipo de teclado  (mecanico , membrana o low-profile para gaming/office ) </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">precion del mouse     (DPI ajustable,diseño ergonomico o inalambrico   )</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> personalizacion (RGB, macros o conectividad multiplataforma) </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx" >
+ <h2> Tarjetas de Audio </h2>
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar">Creative sound Blaster Z SE
+ </option>
+   <option value="comprar">ASUS Xonar AE internal </option>
+  </option>
+  <option value="comprar">Focusrite Scarlett Solo </option>
+  </option>
+  <option value="comprar">EVGA </option>
+      </select><br><br>
+
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2>opinion de las tarjetas de audio  </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Que caracteristica priorizas al elegir una tarjeta de audio ?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> calidad del sonido  (resolucion alta: 24-bits/192khz para estudio gaming ) </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">conectividad    (entradas/salidas XLR, MIDI,opticas o USB   )</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> compatibilidad (drivers actualizados, baja latencia para produccion musical o streaming) </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx" >
+ <h2> Tarjetas de Red </h2>
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar"> Tarjeta WIFI 6 AX3000 PCle
+ </option>
+   <option value="comprar">ASUS XG-C100C </option>
+      </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2>opinion de las tarjetas de Red </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Que es lo mas importante para ti al elegir una tarjeta de red ?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> velocidad  (1Gbps, 2.5Gbps, 10Gbps para trasferencia rapida de datos  ) </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">conectividad    (WI-FI 6/6E, Ethernet, o dual-band para estabilidad   )</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> uso especifico (gaming sin lag, streaming 4k o servidores de bajo latency) </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx" >
+ <h2> Unidades opticas </h2>
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar"> Produplicator LG WH16NS46 16X
+ </option>
+   <option value="comprar">ASUS DRW-24D5MT 24K </option>
+      </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2>opinion de las unidades opticas </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Que caracteristica es mas importante par ti al elegir un lector de DVD ?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> compatibilidad con diferentes formatos de disco </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">velocidad de reproduccion y carga </label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> conectividad y compatibilidad con dispositivos externos </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx" >
+ <h2> Camaras Web </h2>
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar"> Camara web Logitech C920s PRO
+ </option>
+   <option value="comprar">Camara web de streaming Razer kiyo pro </option>
+      </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2>opinion de las camaras web </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Cual de las siguientes opciones describe tu principal uso previsto para la web que estes considerando comprar ?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> videocoferencias y reuniones en linea con amigos , familiares o colegas de trabajo  </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">grabacion de contenido de video para plataformas de redes sociales o youtube </label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> seguridad y vigilacia en el hogar o en el trabajo, con funciones de grabacion y alertas  </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+
+
+
+
+<form method="post" action="mailton:juancerna1@cecyteslp.edu.mx" >
+ <h2> Almacenamiento (SSD) </h2>
+   <label for="nombre ">Nombre:</label>
+   <input type="text" id="Nombre" name="nombre" requeried><br><br>
+   <label for="Tipo">Tipo de solicitud:</label>
+   <select name="ipo" id="tipo">
+   <option value="comprar"> Samsumg 990 pro 
+ </option>
+   <option value="comprar">Western Digital WD GREEN</option>
+      </select><br><br>
+ <label for="Correo ">Correo Electronico:</label>
+ <input type="Email" id="Email" name="Email" required>
+  <br><br>
+<label for="Descripcion">Descripcion:</label>
+<textarea name="desc" id="desc" rows="5" cols="33"></textarea>
+<br>
+<input type= "submit" value="Enviar solicitud">
+<br>
+<br>
+<br>
+</form><br>
+
+
+<form method="post" action="mailto:juancerna1@cecyteslp.edu.mx" enctype="text/plain">
+            <h2>opinion de los almacenamientos (SSD)	 </h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>¿Podrias indicarme cual de estos aspectos es importante para ti al elegir un almacenamiento solido ?</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo"> velocidad de trasferencia (ej. para gaming o edicion de video) </label><br>
+           
+       <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">capacidad de almacenamiento (ej. 500GB,1TB,cte.) </label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno"> Durabilidad y garantia (ej. TBW escritos o años de soporte </label><br><br>
+            
+            <label for="problema">CRITICAS SOBRE LOS PRODUCTOS</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button></form><br>
+
+
+<footer>
+<p> ° 2025 TECHNOVA. TODOS LOS DERECHOS RESERVADOS.</p></footer>   
+
+</body>
+
+</html>
